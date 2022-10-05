@@ -1,4 +1,3 @@
-
 import { Component } from 'react';
 import { Section } from './Section/Section';
 import { Form } from './Section/Form/Form';
@@ -67,3 +66,9 @@ class App extends Component {
             </>
           )}
         </Section>
+      </>
+    );
+  }
+}
+
+export default App;
